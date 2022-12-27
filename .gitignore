@@ -1,0 +1,10 @@
+scratch/
+
+#python
+*.pyc
+
+#vs
+.vscode*
+
+# fme 
+*.fmw.recover
