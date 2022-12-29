@@ -8,3 +8,6 @@ scratch/
 
 # fme 
 *.fmw.recover
+
+# avoid committing credential files
+# *.txt
