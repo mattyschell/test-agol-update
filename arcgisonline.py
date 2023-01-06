@@ -9,37 +9,44 @@ import requests
 import json
 
 
-
 class User(object):
 
     def __init__(self
                 ,user 
-                ,password):
+                ,password
+                ,expiration=60):
 
-        self.user = user
-        self.password = password
-        # this one is not https?
-        # todo: try with https and then use referer in gettoken post
-        self.referer = 'http://www.arcgis.com'
+        self.user       = user
+        self.password   = password
+        self.expiration = expiration
+
+        self.referer = 'https://www.arcgis.com'
 
         self.creds = {"username": self.user
                      ,"password":self.password
                      ,"f": "json"
-                     ,"referer": self.referer}
+                     ,"referer": self.referer
+                     ,"expiration":self.expiration}
 
     def gettoken(self):
 
-        response = requests.post("https://www.arcgis.com/sharing/generateToken"
+        response = requests.post('{0}/sharing/generateToken'.format(self.referer)
                                 ,data=self.creds)
 
-        # full response like 
+        jsonresponse = json.loads(response.text)
+
+        if 'error' in jsonresponse:
+            raise ValueError("got response {0} from generateToken".format(jsonresponse))
+        
+        # full good response like 
         # {'token': 'abcdiluvesri247',
         #  'expires': 1672338298003,
         #  'ssl': True}
-        token = json.loads(response.text)['token']
+        token = jsonresponse['token']
+
+        # print(token)
 
         return token
-
 
 class Layer(object):
 
