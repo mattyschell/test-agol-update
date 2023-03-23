@@ -1,0 +1,93 @@
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|Current FME version: FME 2022.1.3.0 (20220928 - Build 22630 - WIN64)
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|Permanent License.
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|Machine host name is: T2UA64237XN
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\matt_projects\test-agol-update\test/'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'test-proxy.fmw'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.1.3.0'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19042)
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|System Status: 65.95 GB of disk space available in the FME temporary folder (C:\Users\mschell\AppData\Local\Temp\wbrun_1679581734670_28908\fmetmp_3)
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|System Status: 15.92 GB of physical memory available
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|System Status: 63.67 GB of virtual memory available
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|START - ProcessID: 13200, peak process memory usage: 48972 kB, current process memory usage: 48964 kB
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/matt_projects/test-agol-update/test\wb-xlate-1679584781604_28908' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `62941'
+2023-03-23 11:19:46|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '\\doitt.nycnet\root\MT_User_Data\mschell\Application Data\Safe Software\FME\'
+2023-03-23 11:19:46|   0.2|  0.2|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;\\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\Formats
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for transformers are : \\doitt.nycnet\root\MT_User_Data\mschell\Application Data\Safe Software\FME\Packages\22630-win64\transformers;C:\Program Files\FME\transformers
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : \\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\CoordinateSystems
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : \\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\CoordinateSystemExceptions
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : \\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\CoordinateSystemGridOverrides
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : \\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\CsmapTransformationExceptions
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Shared folders for transformer categories are : \\doitt.nycnet\root\MT_User_Data\mschell\My Documents\FME\TransformerCategories
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\matt_projects\test-agol-update\test'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\mschell\AppData\Local\Temp\wbrun_1679581734670_28908\fmetmp_3', set from environment variable `FME_TEMP'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\mschell\AppData\Local\Temp'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.76 GB
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.82 GB
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (4.0 20220615)
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Creating reader for format: 
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Loaded module 'HTTPFactory' from file 'C:\Program Files\FME\plugins/HTTPFactory.dll'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|The workspace does not contain user Python. FME will attempt to use a Python 3.9+ interpreter
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython39\python39.dll' with PYTHONHOME `C:\Program Files\FME\fmepython39'
+2023-03-23 11:19:46|   0.2|  0.0|INFORM|Python version 3.9 loaded successfully
+2023-03-23 11:19:46|   0.5|  0.3|INFORM|Emptying factory pipeline
+2023-03-23 11:19:46|   0.5|  0.0|STATS |Creator_XML_Creator (CreationFactory): Created 1 features
+2023-03-23 11:19:46|   0.5|  0.0|STATS |Creator_Cloner (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-23 11:19:46|   0.5|  0.0|STATS |Creator_CREATED Brancher -1 4 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2023-03-23 11:19:46|   0.5|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-23 11:19:47|   0.7|  0.2|INFORM|HTTPCaller (HTTPFactory): [1]: Starting HTTP download from 'example.com'. Expected transfer size: 648 bytes
+2023-03-23 11:19:47|   0.7|  0.0|INFORM|HTTPCaller (HTTPFactory): [1]: HTTP Download: received 648 bytes
+2023-03-23 11:19:47|   0.7|  0.0|INFORM|HTTPCaller (HTTPFactory): [1]: HTTP transfer summary (example.com): status code: 200, download size: 648 bytes, DNS lookup time: 2 ms, total transfer time: 91 ms
+2023-03-23 11:19:47|   1.0|  0.3|STATS |Test-httpget (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Test-httpget-FileWriterPass_AttributeFileWriterInput (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Test-httpget-FileWriterPass (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Test-httpget-FileWriterPass_Rejector (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2023-03-23 11:19:47|   1.0|  0.0|STATS |successmail_CATCHER (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|INFORM|Optional `process_group' method not present; not called
+2023-03-23 11:19:47|   1.0|  0.0|STATS |successmail_ROUTER (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-03-23 11:19:47|   1.0|  0.0|STATS |AttributeFileWriterFail_AttributeFileWriterInput (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |AttributeFileWriterFail (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |AttributeFileWriterFail_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-03-23 11:19:47|   1.0|  0.0|STATS |failmail_CATCHER (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |failmail_ROUTER (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|STATS |                            Features Read Summary
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|STATS |==============================================================================
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Total Features Read                                                          0
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|STATS |                           Features Written Summary
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|STATS |==============================================================================
+2023-03-23 11:19:47|   1.0|  0.0|STATS |Total Features Written                                                       0
+2023-03-23 11:19:47|   1.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 11:19:47|   1.0|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (0 feature(s) output)
+2023-03-23 11:19:47|   1.0|  0.0|INFORM|FME Session Duration: 1.5 seconds. (CPU: 0.3s user, 0.7s system)
+2023-03-23 11:19:47|   1.0|  0.0|INFORM|END - ProcessID: 13200, peak process memory usage: 79452 kB, current process memory usage: 79180 kB
