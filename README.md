@@ -27,7 +27,9 @@ An integration test of the components that refresh our content in the [NYCmaps](
 
 ## Motivation
 
-This is annoying, why are you being annoying? Here are a few concrete motivational examples describing cases where running an integration test would be helpful.
+You, a nice normal person: "This is annoying, why are you being annoying?" 
+
+Me, annoyingly: "Here are a few concrete motivational examples describing cases where running an integration test would be helpful."
 
 1. We update the proxy settings on the ETL server.  Is everything broken?
 2. We migrate the source data to a new database.  Can we still access?
