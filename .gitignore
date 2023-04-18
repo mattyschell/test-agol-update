@@ -11,3 +11,8 @@ scratch/
 
 # avoid committing credential files
 *.txt
+
+*.log
+
+Agol.txt
+AGOL_Publishing/Data/Other/Agol.txt
