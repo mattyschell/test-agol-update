@@ -1,0 +1,351 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME\fme.exe" C:\matt_projects\test-agol-update\test\test-database.fmw
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY="Integrations"
+#!   DESCRIPTION="&lt;h3 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h3&gt;&#10;&lt;p&gt;Regression tests expected database connectivity from an FME environment&lt;/p&gt;"
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="2622.5 371"
+#!   DOC_TOP_LEFT="-818.758 -967.881"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="22350"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="b6271112-7b5a-4608-b04c-45c92396a240"
+#!   FME_DOCUMENT_PRIORGUID="32ed29f8-e058-4939-bba5-6ab1c6d30a98,4d56ae62-44f4-4797-8ff3-a078de2a75d6"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2022.0.1.1 (20220617 - Build 22350 - WIN64)"
+#!   LAST_SAVE_DATE="2023-04-19T11:56:33"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION="###DESCRIPTION&#10;Regression tests expected database connectivity from an FME environment"
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="39"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE="test-database"
+#!   USAGE=""
+#!   USE_MARKDOWN="YES"
+#!   VIEW_POSITION="-1334.39 0"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <CONNECTIONS>
+#! <CONNECTION
+#!   NAME="sde_pscscl"
+#!   TYPE="DATABASE"
+#!   FAMILY="PostgreSQL"
+#!   USAGE="INTERNAL"
+#! />
+#! </CONNECTIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbXX0="
+#! >
+#! <PARAMETER_INFO>
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="46.875468754687546 -596.88096880968806"
+#!   BOUNDING_RECT="46.875468754687546 -596.88096880968806 594.10000000000002 71"
+#!   ORDER="500000000001032"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22350"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="dummy" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="dummy" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_TYPES" PARM_VALUE="int32"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="sde_pscscl"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="dummy"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_ATTRIBUTE_TYPES" PARM_VALUE="int4"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Tables:,POSTGRES_READ_TIME_WITH_TIMEZONE,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Connection:,POSTGRES_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Data Features"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_NAMED_CONNECTION" PARM_VALUE="sde_pscscl"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_READ_TIME_WITH_TIMEZONE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;1&lt;space&gt;as&lt;space&gt;dummy"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor:_PscsclAzure"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="-818.75818758187586 -596.88096880968806"
+#!   BOUNDING_RECT="-818.75818758187586 -596.88096880968806 504.09999999999997 71"
+#!   ORDER="500000000001033"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22350"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator:_PscsclAzure"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="Terminator"
+#!   VERSION="3"
+#!   POSITION="1240.6374063740641 -896.88096880968806"
+#!   BOUNDING_RECT="1240.6374063740641 -896.88096880968806 563.09999999999991 71"
+#!   ORDER="500000000001034"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22350"
+#! >
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="$(WORKSPACE_NAME)&lt;space&gt;HAS&lt;space&gt;FAILED&lt;space&gt;WITH&lt;space&gt;ERROR&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_reader_error&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator:_PscsclAzure"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="Logger"
+#!   VERSION="4"
+#!   POSITION="1265.6376563765637 -596.88096880968806"
+#!   BOUNDING_RECT="1265.6376563765637 -596.88096880968806 498.09999999999997 71"
+#!   ORDER="500000000001036"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22350"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="gisadmin&lt;space&gt;can&lt;space&gt;connect&lt;space&gt;to&lt;space&gt;pscscl&lt;space&gt;on&lt;space&gt;azure"/>
+#!     <XFORM_PARM PARM_NAME="MSG_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="INFO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger:_PscsclAzure"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="7"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="10"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 2 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;REJECTED&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 39
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)test-database.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2022.0.1.1 (20220617 - Build 22350 - WIN64)"
+MAPPING_FILE_ID test-database
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME test-database
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator:_PscsclAzure_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator:_PscsclAzure_XML     NOT_ACTIVATED
+MACRO Creator:_PscsclAzure_CLASSIC NOT_ACTIVATED
+MACRO Creator:_PscsclAzure_2D3D    2D_GEOMETRY
+MACRO Creator:_PscsclAzure_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator:_PscsclAzure_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator:_PscsclAzure_2D3D 2D_GEOMETRY};            puts {MACRO Creator:_PscsclAzure_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator:_PscsclAzure_2D3D 3D_GEOMETRY};            puts {MACRO Creator:_PscsclAzure_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator:_PscsclAzure: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator:_PscsclAzure_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator:_PscsclAzure_2D3D 2D_GEOMETRY};            puts {MACRO Creator:_PscsclAzure_CLASSIC *} } ]
+FACTORY_DEF {$(Creator:_PscsclAzure_XML)} CreationFactory    FACTORY_NAME { Creator:_PscsclAzure_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator:_PscsclAzure_CLASSIC)} CreationFactory    FACTORY_NAME { Creator:_PscsclAzure_CLASSIC_Creator }    $(Creator:_PscsclAzure_2D3D) { $(Creator:_PscsclAzure_COORDS) }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator:_PscsclAzure_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator:_PscsclAzure_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator:_PscsclAzure_CREATED        fme_feature_type Creator:_PscsclAzure         }
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator:_PscsclAzure_CREATED Brancher -1 7"   INPUT FEATURE_TYPE Creator:_PscsclAzure_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+MACRO SQLExecutor:_PscsclAzure_DIRECTIVES READ_TIME_WITH_TIMEZONE Yes QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes NAMED_CONNECTION sde_pscscl CREATE_FEATURE_TABLES_FROM_DATA Yes
+FACTORY_DEF {*} QueryFactory    FACTORY_NAME { SQLExecutor:_PscsclAzure }    INPUT  FEATURE_TYPE Creator:_PscsclAzure_CREATED    QUERY_SQL            { "select<space>1<space>as<space>dummy" }    READER_TYPE          { POSTGRES }    READER_DATASET       { "sde_pscscl" }    COMBINE_ATTRIBUTES   { RESULT_ONLY }    IGNORE_NULLS         { <Unused> }    COMBINE_GEOMETRY     { QUERY_ONLY }    QUERYFCT_OUTPUT      { "DATA_ONLY" }    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        { $(SQLExecutor:_PscsclAzure_DIRECTIVES) }    OUTPUT { QUERY FEATURE_TYPE SQLExecutor:_PscsclAzure_INITIATOR            }    OUTPUT { READER_ERROR FEATURE_TYPE SQLExecutor:_PscsclAzure_<REJECTED>         }
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {Logger:_PscsclAzure_5297e8cc_cadc_49ea_b3f3_acd8c99c184e2} ]
+# If the Logger was in a custom transformer, the custom transformer's name was not being
+# properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
+# message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
+# used in the @Log call via the $encode macro name suffix trick, we get the right result, and the right result
+# safely.
+MACRO LOGGABLE_XFORMER_NAME Logger:_PscsclAzure
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Logger:_PscsclAzure_Logger }    INPUT  FEATURE_TYPE SQLExecutor:_PscsclAzure_INITIATOR    OUTPUT { FEATURE_TYPE Logger:_PscsclAzure_LOGGED                  @Log(ENCODED, "$(LOGGABLE_XFORMER_NAME$encode):<space>gisadmin<space>can<space>connect<space>to<space>pscscl<space>on<space>azure","20","20","",INFO,LOG_ONLY,$(FME_UUID_SAFE))                   }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger:_PscsclAzure LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger:_PscsclAzure_LOGGED
+# -------------------------------------------------------------------------
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Terminator:_PscsclAzure }    INPUT  FEATURE_TYPE SQLExecutor:_PscsclAzure_<REJECTED>    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,$(WORKSPACE_NAME$encode)<space>HAS<space>FAILED<space>WITH<space>ERROR<space><at>Value<openparen>_reader_error<closeparen>,Terminator:_PscsclAzure)")       @SupplyAttributes(_wb_termination_xformer,"Terminator:_PscsclAzure")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,$(WORKSPACE_NAME$encode)<space>HAS<space>FAILED<space>WITH<space>ERROR<space><at>Value<openparen>_reader_error<closeparen>,Terminator:_PscsclAzure)") }
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
