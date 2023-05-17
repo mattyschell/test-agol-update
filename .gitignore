@@ -10,9 +10,11 @@ scratch/
 *.fmw.recover
 
 # avoid committing credential files
-*.txt
+#*.txt
 
 *.log
 
-Agol.txt
-AGOL_Publishing/Data/Other/Agol.txt
+#only allow AGOL_Publishing\regressiontest\data\*
+AGOL_Publishing/Data/*
+AGOL_Publishing/SDE_Connections/*
+#AGOL_Publishing/regressiontest/credentials/*
