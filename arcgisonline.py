@@ -1,7 +1,7 @@
 # This is an arcgisonline management module
 # with arcgisonline.user, arcgisonline.layer, etc classes 
 
-# I have cribbed a lot of this from a script where
+# I have cribbed some initial parts of this from a script where
 #__authors__ = ["Esri", "DVG"]
 #__license__ = "GPLv3"
 
